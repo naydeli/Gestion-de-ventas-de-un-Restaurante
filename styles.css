@@ -1,0 +1,92 @@
+body, html {
+    height: 100%;
+}
+
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background: white;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.form-box {
+    width: 300px;
+    padding: 40px;
+    background: #f5b000;
+    text-align: center;
+
+}
+
+.form-title{
+color: whitesmoke;
+text-transform: uppercase;
+font-weight: 500;
+
+}
+
+.form-box input[type="text"],
+.form-box input[type="password"],
+.form-box button[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    padding: 15px 10px;
+    text-align: center;
+    border: 2px solid black;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 20px;
+    transition: 0.30s;
+}
+
+.form-box input[type="text"]:focus,
+.form-box input[type="password"]:focus {
+    width: 275px;
+    border-color: black;
+}
+
+.form-box button[type="submit"]{
+    border: 0;
+    background: black;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.form-box button[type="submit"]:hover {
+    background: none;
+
+}
+
+.cuenta{
+    color: antiquewhite;
+    text-decoration: none;
+    background: none;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+
+.login {
+    border: 0;
+    background-color: none;
+    display: block;
+    margin: 20px auto;
+    padding: 15px 10px;
+    text-align: center;
+    border: 2px solid black;
+    width: 200px;
+    outline: none;
+    color: whitesmoke;
+    border-radius: 20px;
+    transition: 0.30s;
+    text-decoration: none;
+}
